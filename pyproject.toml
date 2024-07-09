@@ -1,0 +1,16 @@
+[project]
+name = "KobeHSC"
+descriptioin = "Method for processing HSC cytometry data"
+requires-python = ">=3.11"
+classifiers = [
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    "phate==1.0.11",
+    "xgboost==2.1.0",
+]
+[project.urls]
+"Homepage" = "https://github.com/utipe/Method_HSC_in_silico_functional_screening"
